@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<title>GERALD DEWITT-SMITH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Finger%20Paint">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Londrina%20Sketch">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Galindo">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoMono">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card-2 w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align" style="background-color:#b7dcf6" >
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+  <a href="#home"><button2 class="w3-button" title="Home"><i class="fa fa-home" style="color:#ffffff"></i></button></a>
+  <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+    <a href="#Aboutme" class="w3-bar-item w3-button w3-hide-small w3-hover-grey" style="color:#000000">Who Am I?</a>
+    <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-grey" style="color:#000000">Art Gallery</a>
+    <a href="#digitaldesign" class="w3-bar-item w3-button w3-hide-small w3-hover-grey"style="color:#000000">Digital Content</a>
+      <a href="#Animations" class="w3-bar-item w3-button w3-hide-small w3-hover-grey"style="color:#000000">Animations</a>
+  </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-hide-small w3-right"><i style="color:#dd0012"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button" >Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity" id="home">
+  <img src="images/Background.jpg" alt="husky" style="width:100%;min-height:350px;max-height:600px;" >
+  <div class="w3-container w3-display-bottomleft w3-margin-botton">
+    <h1 algin="center"> Gerald Dewitt-Smith<h1>
+    <button1 align="center" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xxlarge w3-theme w3-hover-white" title="Go To W3.CSS">Welcome to my Portfolio!!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="home" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container-center w3-display-container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>This a digital portfolio of my work ranging from traditional art to more digital designs and animations</h4>
+      <h5> <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- About me -->
+<div class="w3-container w3-padding-64 w3-center" style="background-color:black" id="Aboutme">
+<h2><font color="white">About Me</h2>
+
+<div class="w3-center">
+  <img src="/images/ALSOME3.jpg" alt="Gerald Dewitt-Smith Jr" style="width:15%" class="w3-circle">
+<p>
+I am a student at the University of Connecticut in Stamford, CT. Currently enrolled in the Digital Media and Desigh major with a concentration in 2D Animation.</p>
+</div>
+
+</div>
+
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme" id="work">
+<div class="w3-quarter">
+<h2 align="center"> My Work</h2>
+<p>This is a collection of some of my traditional art work throughout my years in high school as well as college...</p>
+</div>
+
+
+<div id="a" class="w3-threequarter w3-center">
+
+  <!-- Slideshow Header -->
+    <div class="w3-container">
+      <h2 class="w3-text-white">Art Gallery</h2>
+      <div class="w3-display-container mySlides" style="display: block;">
+      <img src="/images/FULLMOON.jpg" style="width:50%;margin-bottom:-6px">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Art</p>
+        </div>
+      </div>
+      <div class="w3-display-container mySlides" style="display: none;">
+      <img src="/images/THEPACK.jpg" style="width:50%;margin-bottom:-6px">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Art2</p>
+        </div>
+      </div>
+      <div class="w3-display-container mySlides" style="display: none;">
+      <img src="/images/HALLWAY.jpg" style="width:50%;margin-bottom:-6px">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Art3</p>
+        </div>
+      </div>
+      <div class="w3-display-container mySlides" style="display: none;">
+      <img src="/w3images/JORDAN.jpg" style="width:50%;margin-bottom:-6px">
+        <div class="w3-display-bottomleft w3-container w3-black">
+          <p>Art4</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col s3">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="/images/FULLMOON.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="Art1">
+      </div>
+      <div class="w3-col s3">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="/images/PACK.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)" title="Art2">
+      </div>
+      <div class="w3-col s3">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="/images/HALLWAY.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)" title="Art3">
+      </div>
+      <div class="w3-col s3">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="/images/JORDAN.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Art4">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row" style="background-color:black" id="digitaldesign">
+    <h2 algin="center" >Digital Content</h2>
+    <p> Here is where all my work involving digital application like photoshop is showcased... </p><br>
+    <div class="w3-half w3-margin-bottom">
+
+    </div>
+
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="Animations">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-black w3-bottombar">Animations/Videos</span></div>
+      <h3></h3>
+      <p>Enjoy!</p>
+      <p><i class=""></i> 2D Animations </p>
+      <p><i class=""></i> Motion Graphics </p>
+      <p><i class=""></i> Etc </p>
+    </div>
+  </div>
+</div>
+
+<!-- Google Maps -->
+<div id="googleMap" style="width:100%;height:420px;"></div>
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Me ;)</h4>
+  <a class="w3-button w3-large w3-grey" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-grey" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-grey" href="" title="G-MAIL"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-grey" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-grey w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p></a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+</script>
+<style>
+h1 {
+    font-family: "Londrina Sketch";font-size: 150px;
+}
+</style>
+<style>
+h2 {
+    font-family: "Finger Paint";font-size: 25px;
+}
+</style>
+<style>
+p{
+    font-family: "Bitter";font-size: 15px;
+}
+</style>
+<style>
+button1{
+    font-family: "Galindo";font-size: 75px;
+}
+
+
+</body>
+</html>
