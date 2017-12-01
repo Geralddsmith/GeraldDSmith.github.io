@@ -1,2 +1,0 @@
-# Geralddsmith.github.io
-Portfolio
