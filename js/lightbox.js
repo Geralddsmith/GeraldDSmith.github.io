@@ -111,17 +111,17 @@
 
     // Store css values for future lookup
     this.containerPadding = {
-      top: parseInt(this.$container.css('padding-top'), 4),
-      right: parseInt(this.$container.css('padding-right'), 4),
-      bottom: parseInt(this.$container.css('padding-bottom'), 4),
-      left: parseInt(this.$container.css('padding-left'), 4)
+      top: parseInt(this.$container.css('padding-top'), 10),
+      right: parseInt(this.$container.css('padding-right'), 10),
+      bottom: parseInt(this.$container.css('padding-bottom'), 10),
+      left: parseInt(this.$container.css('padding-left'), 10)
     };
 
     this.imageBorderWidth = {
-      top: parseInt(this.$image.css('border-top-width'), 2),
-      right: parseInt(this.$image.css('border-right-width'), 2),
-      bottom: parseInt(this.$image.css('border-bottom-width'), 2),
-      left: parseInt(this.$image.css('border-left-width'), 2)
+      top: parseInt(this.$image.css('border-top-width'), 10),
+      right: parseInt(this.$image.css('border-right-width'), 10),
+      bottom: parseInt(this.$image.css('border-bottom-width'), 10),
+      left: parseInt(this.$image.css('border-left-width'), 10)
     };
 
     // Attach event handlers to the newly minted DOM elements
