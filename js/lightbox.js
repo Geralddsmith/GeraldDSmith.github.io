@@ -111,10 +111,10 @@
 
     // Store css values for future lookup
     this.containerPadding = {
-      top: parseInt(this.$container.css('padding-top'), 10),
-      right: parseInt(this.$container.css('padding-right'), 10),
-      bottom: parseInt(this.$container.css('padding-bottom'), 10),
-      left: parseInt(this.$container.css('padding-left'), 10)
+      top: parseInt(this.$container.css('padding-top'), 4),
+      right: parseInt(this.$container.css('padding-right'), 4),
+      bottom: parseInt(this.$container.css('padding-bottom'), 4),
+      left: parseInt(this.$container.css('padding-left'), 4)
     };
 
     this.imageBorderWidth = {
